@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'PerfectDOSVGA';
+    src: url('./fonts/PerfectDOSVGA.ttf');
+}
+
+.header {
+    text-align: center;
+    font-family: 'PerfectDOSVGA';
+    font-size: 25px;
+}
+
+.button {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s linear;
+    outline:none;
+    margin: auto auto 10px;
+    overflow: none;
+    width: 103%;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button:active {
+    background-color: #3969D1;
+    transition: none;
+}
+
+.highlight {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.paragraph {
+    margin: 1%;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.picture {
+    text-align: center;
+}
+
+.picture p {
+    text-align: center;
+    font-size: 90%;
+}
